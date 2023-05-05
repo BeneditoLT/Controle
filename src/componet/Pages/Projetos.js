@@ -1,7 +1,13 @@
+import ProjetoFrom from '../projeto/ProjetoFrom'
+import styless from './projeto.module.css'
+
 function Projetos() {
     return(
-        <div>
-         <h1>Projetos</h1>
+        <div className={styless.projeto_conteiner}>
+         <h1>Criar Projetos</h1>
+         <p>crie seu projeto para depois adicionar os serviços</p>
+         <ProjetoFrom/>
+
         </div>
     )
 }
