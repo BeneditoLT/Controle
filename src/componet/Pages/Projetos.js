@@ -6,9 +6,9 @@ function Projetos() {
         <div className={styless.projeto_conteiner}>
          <h1>Criar Projetos</h1>
          <p>crie seu projeto para depois adicionar os serviços</p>
-         <ProjetoFrom/>
+         <ProjetoFrom btnText="Criar Projeto"/>
 
         </div>
     )
 }
-export default Projetos
+export default Projetos 
